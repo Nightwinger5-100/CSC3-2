@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <!--link to the gameCode.js file and my header-->
+    <script src = "stringCode.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--My page title-->
+    <title>Checking Creds</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>
+<!--Top of the screen welcome text-->
+Welcome to my Strings page
+</h1>
+
+<h2>
+<!--Section description-->
+Input Validation Section
+</h2>
+
+<!--Instruction on what to do-->
+<p>
+Please input the following information below to gain access to the webpage
+</p>
+
+<!--Instruction on what to press-->
+<div id="loginStatus">Press Submit to Login</div>
+
+<br>
+
+<!--Instruction on what to after inputting the information-->
+<p>
+Submit the following information before pressing submit
+</p>
+
+<!--Following information needed to be input-->
+<form id = "creditSubmit" onsubmit = "return false"> 
+First Name: <input type = text id = "fName">
+Last Name: <input type = text id = "lName">
+Zipcode: <input type = text id = "zipCode">
+<br>
+
+<!--Instructions on what to do-->
+<input type = "submit" onclick="checkCredentials()">
+</form>
+
+</body>
+
+</html>

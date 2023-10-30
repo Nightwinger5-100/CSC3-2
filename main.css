@@ -1,0 +1,31 @@
+
+   /* This is for my bg color and text color of my pages */
+    body {
+        background-color: rgb(7, 225, 254);
+        color:rgb(255, 255, 255);
+    }
+    
+    /* nav positions */
+    nav {
+        height: 6000px;
+        width: 200px;
+        float: left;
+        padding: 5px;
+        line-height: 30px;
+    }
+
+    /*footer positions */
+    footer {
+    text-align: center;
+    margin-right: 200px;
+    }
+    
+    /*meme image position*/
+    typo.jpg {
+    margin-right: 200px;
+    }
+
+    /*header position*/
+    header {
+    text-align: center;    
+    }
